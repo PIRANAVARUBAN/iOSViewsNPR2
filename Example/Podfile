@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSViewsNPR2_Example' do
+  pod 'iOSViewsNPR2', :path => '../'
+
+  target 'iOSViewsNPR2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
