@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1051974DDBC4A2DF37B4D38B /* Pods-iOSViewsNPR2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSViewsNPR2_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSViewsNPR2_Example/Pods-iOSViewsNPR2_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		32C87FFE43C78DD4672CC1E6 /* Pods-iOSViewsNPR2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSViewsNPR2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSViewsNPR2_Example/Pods-iOSViewsNPR2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		38FA56B2B2ED6F2C332D3943 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		38FA56B2B2ED6F2C332D3943 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		42B4515BC94F4387D6619B97 /* Pods-iOSViewsNPR2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSViewsNPR2_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSViewsNPR2_Tests/Pods-iOSViewsNPR2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* iOSViewsNPR2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSViewsNPR2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		A598138BD1CA5F843D25B091 /* Pods_iOSViewsNPR2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSViewsNPR2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1B0E8E4AB251661D55F010 /* Pods_iOSViewsNPR2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSViewsNPR2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE5B56222E1A490529F86C0 /* Pods-iOSViewsNPR2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSViewsNPR2_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSViewsNPR2_Tests/Pods-iOSViewsNPR2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D0C9FA799103D40E40162A67 /* iOSViewsNPR2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSViewsNPR2.podspec; path = ../iOSViewsNPR2.podspec; sourceTree = "<group>"; };
-		D1D10D9B561C3AD4063C58D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D0C9FA799103D40E40162A67 /* iOSViewsNPR2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSViewsNPR2.podspec; path = ../iOSViewsNPR2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1D10D9B561C3AD4063C58D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -1,0 +1,16 @@
+PODS:
+  - iOSViewsNPR2 (0.1.0)
+
+DEPENDENCIES:
+  - iOSViewsNPR2 (from `../`)
+
+EXTERNAL SOURCES:
+  iOSViewsNPR2:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iOSViewsNPR2: f205532e7e11b9c1faa58fba78da5fc4dd03499c
+
+PODFILE CHECKSUM: 1c4fb33fef5f92cd420a31f708215dc86f48c6ae
+
+COCOAPODS: 1.4.0

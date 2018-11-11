@@ -1,0 +1,6 @@
+framework module iOSViewsNPR2 {
+  umbrella header "iOSViewsNPR2-umbrella.h"
+
+  export *
+  module * { export * }
+}
