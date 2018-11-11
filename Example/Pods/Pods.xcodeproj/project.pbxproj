@@ -10,7 +10,7 @@
 		18ADFAC36F409A9B7031B8CF494CF2BB /* Pods-iOSViewsNPR2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DCB98DAB19555FBBA4A7EA55DEC3A6 /* Pods-iOSViewsNPR2_Tests-dummy.m */; };
 		238F8D65B9174620C54EA699DB759A91 /* Pods-iOSViewsNPR2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEF3A420004633DAA702630F6D7D534 /* Pods-iOSViewsNPR2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33E2501A7A6770B08684E7D39A0F9BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		78E9455B219871C100C79CE6 /* YellowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9455A219871C100C79CE6 /* YellowView.swift */; };
+		78E9457E21987AA100C79CE6 /* YellowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9457D21987AA100C79CE6 /* YellowView.swift */; };
 		A2ED59F70DB4B4D5C78EE7D6B6471A9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AEC9E06DB3E67C6FE97434681244773D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B25A3EF7D838874794DADFDEEF5B364D /* iOSViewsNPR2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6FD5F67B4CF31662104860119B19E3 /* iOSViewsNPR2-dummy.m */; };
@@ -43,7 +43,7 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		713F1F42A5905A03A593901841FA6EFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		744BAC2A0921266AFE18EC1BA5AE882F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78E9455A219871C100C79CE6 /* YellowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowView.swift; sourceTree = "<group>"; };
+		78E9457D21987AA100C79CE6 /* YellowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YellowView.swift; path = iOSViewsNPR2/Classes/YellowView.swift; sourceTree = "<group>"; };
 		7F6FD5F67B4CF31662104860119B19E3 /* iOSViewsNPR2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSViewsNPR2-dummy.m"; sourceTree = "<group>"; };
 		82484927D2234B088B3B4E31F6EFFFA5 /* iOSViewsNPR2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSViewsNPR2-prefix.pch"; sourceTree = "<group>"; };
 		8AA954DB9131698B9F3976F88FE46955 /* Pods-iOSViewsNPR2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSViewsNPR2_Example-resources.sh"; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		3EAEFAE3EDFCD8E704C2B23C06C7DF40 /* iOSViewsNPR2 */ = {
 			isa = PBXGroup;
 			children = (
-				78E9455A219871C100C79CE6 /* YellowView.swift */,
+				78E9457D21987AA100C79CE6 /* YellowView.swift */,
 				CCAA05FCB4F80F20A69013401D50A342 /* ReplaceMe.swift */,
 				BAD225882170112B98777D986580F86D /* Pod */,
 				47312C27084C92C7B7643EB3DD93B28B /* Support Files */,
@@ -354,8 +354,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E9455B219871C100C79CE6 /* YellowView.swift in Sources */,
 				B25A3EF7D838874794DADFDEEF5B364D /* iOSViewsNPR2-dummy.m in Sources */,
+				78E9457E21987AA100C79CE6 /* YellowView.swift in Sources */,
 				F7121D93567CE3B3DD87104452E75071 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
